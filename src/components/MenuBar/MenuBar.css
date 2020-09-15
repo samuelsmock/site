@@ -1,0 +1,55 @@
+.menuBar {
+  
+  width: auto;
+  opacity:.8;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(73, 121, 136);
+  /*background-image: url('../App/sunny.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  */
+  }
+ 
+
+  
+  .menuOptions ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin: 0px;
+    padding-top: 10px;
+    flex: auto;
+    list-style-type: none;
+    
+  }
+  
+  .menuOptions a{
+    cursor: pointer;
+    
+    
+    padding: 35px 15px 15px 5px;
+    line-height: 1;
+    text-align: left;
+    font-weight: 600;
+    font-size: 2rem;
+    transition: color .75s;
+    display: flex;
+    text-decoration: none;
+    
+  }
+  .menu_item a {
+    color: black;
+  }
+  
+  .menu_item_active a{
+    
+    border-bottom:  solid #f0c36c;
+    color: #f0c36c;
+  }
+
+  .menuOptions a:hover {
+    color: #d4cfcf;
+  }
+
+ 

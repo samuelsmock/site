@@ -1,0 +1,68 @@
+.profile{
+    display: flex;
+    height: 260px;
+    width: auto;
+    vertical-align: top;
+    padding: 10px;
+    position: sticky;
+    background: rgba(5,5,5,0.5);
+    
+    top: 0;
+}
+.opacityBox{
+    opacity: .7;
+    width: auto;
+    height: auto;
+    
+    top: 0;
+    justify-content: left;
+    
+}
+
+
+
+#headshot{
+    
+    width: auto;
+    height: 250px;
+    border-radius: 10px 30px;
+    opacity: 100%;
+    
+    left: 270px;
+    float: left;
+    
+}
+
+.info{
+    float: right;
+    display: inline-block;
+    margin-left: 15px;
+    
+    
+    
+}
+
+.social-links{
+    display: flex;
+    margin-top: 10px;
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    font-size: 1.8rem;
+    background-color: transparent;
+    
+}
+
+.social-icon{
+    margin: 0px 10px 10px 0px;
+    background-color: transparent;
+}
+
+h1 {
+    
+    padding: 0;
+    text-align: left;
+    position: static;
+    font-family: Poppins, sans-serif;
+    font-size: 1.8rem;
+    color: #fff;
+  }
