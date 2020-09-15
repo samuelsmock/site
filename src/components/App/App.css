@@ -11,7 +11,9 @@
   color: white;
 }
 
-
+nav {
+  position: flex;
+}
 
 main {
   width: 100%;
