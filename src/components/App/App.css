@@ -12,15 +12,7 @@
 
 
 
-.right-column{
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  margin-left: 250px;
-  height: 100%;
-  overflow-y: hidden;
-  
-}
+
 .left-sidebar{
   height: 100%;
   position: fixed;
@@ -29,25 +21,38 @@
   flex-shrink: 0;
 }
 
-.top{
+.right-column{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  height: 100%;
+  overflow-y: hidden;
+  align-items: auto;
+  align-self: stretch;
   
-  width:100%;
+}
+
+.top{
+  width: 100%;
   position: fixed;
   z-index: 2;
   background: inherit;
 }
 
 .page{
+  padding-right: 20px;
+
   margin-top: 280px;
   z-index: 1;
   
   overflow-y: auto;
-  background-color: white;
+  background: rgba(255, 255, 255, 0.9);
   background-size: cover;
-  opacity: 0.9;
+
   
   
-  max-width: 100vw;
+  
   position: absolute;
   overflow: hidden;
   

@@ -1,6 +1,7 @@
 .app-content{
     color: black;
     padding-left: 15px;
+    width: 100%;
 }
 ul{
     margin: 0;

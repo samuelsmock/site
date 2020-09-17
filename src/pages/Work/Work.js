@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Work.css';
+
 
 
 class Work extends React.Component {

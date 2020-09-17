@@ -8,16 +8,16 @@ const items = [
         text: 'ME'
     },
     {
-        path: '/projects',
-        text: 'PROJECTS'
+        path: '/education',
+        text: "EDUCATION"
     },
     {
         path: '/work',
         text: 'WORK'
     },
     {
-        path: '/education',
-        text: "EDUCATION"
+        path: '/projects',
+        text: 'PROJECTS'
     }
 ];
 
