@@ -12,17 +12,16 @@ class Head extends React.Component {
     render(){
         return(
             <div className ="profile">
-                <div className ="opacityBox">
-                </div>
+                
                 
                 <img id = 'headshot' src = {headshot} alt = 'profile pic'/>
               
                 <div className ="info">
-                    <h1>Proust Smock</h1>
+                    <h1 className = "large-print">Sam Smock</h1>
                     <p>Front-end web developer in New Orleans, LA</p>
-                    <div className='contact'>
+                    <p className='contact'>
                         Contact: smock.samuel@gmail.com
-                    </div>
+                    </p>
                     <div className = 'social-links'>
                         <a href= "https://www.linkedin.com/in/samuel-chuck-smock-502a5a76" target ="_blank" alt ='' className ='social-icon' rel="noopener noreferrer">
                                 <img src={linkedIn} width="30" height="30" alt ='' />

@@ -29,7 +29,8 @@ class App extends React.Component {
             <div className = "page">
               <Layout/>
             </div>  
-          </div>                                                                                            
+          </div>  
+          <footer> </footer>                                                                                          
             
             
           
