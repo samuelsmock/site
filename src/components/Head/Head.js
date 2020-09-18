@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from './linkedIn-white.png';
+import headshot from './headshot3.jpg';
 import './Head.css';
 import linkedIn from './linkedIn-white.png';
 import gitHub from "./gitHub-white.png";
@@ -18,7 +18,7 @@ class Head extends React.Component {
                 <img id = 'headshot' src = {headshot} alt = 'profile pic'/>
               
                 <div className ="info">
-                    <h1>Samuel Smock</h1>
+                    <h1>Proust Smock</h1>
                     <p>Front-end web developer in New Orleans, LA</p>
                     <div className='contact'>
                         Contact: smock.samuel@gmail.com
