@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from './headshot3.jpg';
+import headshot from './linkedIn-white.png';
 import './Head.css';
 import linkedIn from './linkedIn-white.png';
 import gitHub from "./gitHub-white.png";
