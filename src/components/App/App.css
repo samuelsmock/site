@@ -22,7 +22,7 @@
 }
 
 .right-column{
-  width: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin-left: 250px;
@@ -38,14 +38,16 @@
   position: fixed;
   z-index: 2;
   background: inherit;
+  
 }
 
 .page{
-  padding-right: 20px;
-
+  
+  width: calc(100%-250px);
+  height:100%;
   margin-top: 280px;
   z-index: 1;
-  
+  padding-bottom: 40px;
   overflow-y: auto;
   background: rgba(255, 255, 255, 0.9);
   background-size: cover;

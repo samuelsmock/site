@@ -4,9 +4,10 @@
     width: auto;
     vertical-align: top;
     padding: 10px;
-    position: sticky;
+    position: fixed;
     background: url('./cypress-darkened.jpg') no-repeat center center fixed;
-    background-size: 99.75%; 
+    background-size: 99.75%;
+    width: 100%;
     z-index: 1;
     top: 0;
 }

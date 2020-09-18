@@ -1,7 +1,10 @@
 .app-content{
     color: black;
-    padding-left: 15px;
-    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 80%;
 }
 ul{
     margin: 0;
