@@ -5,23 +5,11 @@
     vertical-align: top;
     padding: 10px;
     margin: 0px;
-    position: fixed;
-    background: url('./cypress-darkened.jpg') no-repeat center center fixed;
-    background-size: 99.75%;
+
     width: 100%;
-    z-index: 1;
     top: 0;
 }
-.opacityBox{
-    background-color: black;
-    opacity: .7;
-    width: auto;
-    height: auto;
-    z-index: 2;
-    top: 0;
-    justify-content: left;
-    
-}
+
 
 
 #headshot{
