@@ -1,36 +1,36 @@
 .all-contents{
-  max-width: 100px;
-  min-height: 100vh;
+  
   display: flex;
   flex-direction: row;
-  align-items: stretch;
-  justify-content: space-between;
-  font-size: calc(10px + 2vmin);
+  height:100%;
+  width: 100%;
   color: white;
-  overflow: hidden;
+  
+ 
 }
 
 
 
 
 .left-sidebar{
-  
+  width:18%;
   height: 100%;
   position: fixed;
   top: 0;
-  width: 250px;
+  float:left;
+  overflow: auto;
   flex-shrink: 0;
   position: fixed;
   top: 0;
 }
 
 .right-column{
-  
+  padding-left:18%;
   width: 100%;
   
-  margin-left: 250px;
+  position: fixed;
   height: 100%;
-  overflow-y: hidden;
+  
 }
 
 .top{
@@ -48,19 +48,15 @@
 
 .page{
   
-  width: calc(100%-250px);
+  
   height: auto;
   min-height: 100%;
-  margin-top: 280px;
+  padding-top: 280px;
   z-index: 1;
   padding-bottom: 40px;
   overflow-y: auto;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.95);
   background-size: cover;
-
-  
-  
-  
   position: absolute;
   overflow: hidden;
   
@@ -102,7 +98,7 @@
 
 html {
   
-  font-size: 18px;
+  font-size: calc(5px + 1.5vw);
   background: url('./cypress_background.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -112,7 +108,7 @@ html {
 
 @media only screen and (max-width: 560px) {
   html {
-    font-size: 15px;
+    
     background: url('./cypress_background.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -152,7 +148,7 @@ input:focus {
 
 h3{
   font-family: 'Abril Fatface', cursive;
-  font-size: 1.8rem;
+  
   margin-bottom: 0px;
   
   padding-bottom:5px;
@@ -161,7 +157,7 @@ h3{
 p, .contact, .not-bold
 .title {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.3rem;
+  
 } 
 
 

@@ -1,12 +1,12 @@
 .profile{
     display: flex;
-    height: 260px;
+    height: auto;
     width: auto;
     vertical-align: top;
     padding: 10px;
     margin: 0px;
 
-    width: 100%;
+   
     top: 0;
 }
 
@@ -15,7 +15,7 @@
 #headshot{
     
     width: auto;
-    height: 250px;
+    height: 10em;
     margin-left: 15px;
     margin-right: 5px;
     border-radius: 10px 30px;
@@ -27,6 +27,7 @@
     display: inline-block;
     margin-left: 20px;
     margin-top: 0px !important;
+    
     
     
     
@@ -46,7 +47,9 @@
     margin: 0px 10px 10px 0px;
     background-color: transparent;
 }
+.large-print{
 
+}
 h1 {
     
     padding: 0;
