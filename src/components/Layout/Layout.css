@@ -1,6 +1,6 @@
 .app-content{
     color: black;
-    padding-left: 30px;
+    padding-left: calc(4px + .6rem);
     
     width: 80%;
     height: auto;

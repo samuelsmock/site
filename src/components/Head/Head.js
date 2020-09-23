@@ -24,11 +24,11 @@ class Head extends React.Component {
                     </p>
                     <div className = 'social-links'>
                         <a href= "https://www.linkedin.com/in/samuel-chuck-smock-502a5a76" target ="_blank" alt ='' className ='social-icon' rel="noopener noreferrer">
-                                <img src={linkedIn} width="30" height="30" alt ='' />
+                                <img src={linkedIn} alt ='' />
                         </a>
                           
                         <a href= "https://github.com/samuelsmock" target ="_blank" alt ='' className ='social-icon' rel="noopener noreferrer">
-                            <img src={gitHub} width="30" height="30" alt =''/>
+                            <img src={gitHub}  alt =''/>
                         </a>    
                     </div>
                    
