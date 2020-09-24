@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.40b00a86.chunk.css",
-    "main.js": "/site/static/js/main.58d3461c.chunk.js",
-    "main.js.map": "/site/static/js/main.58d3461c.chunk.js.map",
-    "runtime-main.js": "/site/static/js/runtime-main.2d760270.js",
-    "runtime-main.js.map": "/site/static/js/runtime-main.2d760270.js.map",
-    "static/js/2.699b3395.chunk.js": "/site/static/js/2.699b3395.chunk.js",
-    "static/js/2.699b3395.chunk.js.map": "/site/static/js/2.699b3395.chunk.js.map",
-    "index.html": "/site/index.html",
-    "precache-manifest.21f39388eb990abc8033c2dfe3c31e99.js": "/site/precache-manifest.21f39388eb990abc8033c2dfe3c31e99.js",
-    "service-worker.js": "/site/service-worker.js",
-    "static/css/main.40b00a86.chunk.css.map": "/site/static/css/main.40b00a86.chunk.css.map",
-    "static/js/2.699b3395.chunk.js.LICENSE.txt": "/site/static/js/2.699b3395.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/site/static/media/cypress_background.de1e9254.jpg",
-    "static/media/gitHub-white.png": "/site/static/media/gitHub-white.1ae0c166.png",
-    "static/media/headshot3.jpg": "/site/static/media/headshot3.2bb7d4dd.jpg",
-    "static/media/linkedIn-white.png": "/site/static/media/linkedIn-white.8c2a56c9.png",
-    "static/media/ravenous_thumb.jpg": "/site/static/media/ravenous_thumb.d9ae1cc7.jpg"
+    "main.css": "/react_scratchpad/static/css/main.52fa8eef.chunk.css",
+    "main.js": "/react_scratchpad/static/js/main.669489d8.chunk.js",
+    "main.js.map": "/react_scratchpad/static/js/main.669489d8.chunk.js.map",
+    "runtime-main.js": "/react_scratchpad/static/js/runtime-main.706129fb.js",
+    "runtime-main.js.map": "/react_scratchpad/static/js/runtime-main.706129fb.js.map",
+    "static/js/2.6bb1f19f.chunk.js": "/react_scratchpad/static/js/2.6bb1f19f.chunk.js",
+    "static/js/2.6bb1f19f.chunk.js.map": "/react_scratchpad/static/js/2.6bb1f19f.chunk.js.map",
+    "index.html": "/react_scratchpad/index.html",
+    "precache-manifest.9fe2b6a6b5b17e06427929335ea811d9.js": "/react_scratchpad/precache-manifest.9fe2b6a6b5b17e06427929335ea811d9.js",
+    "service-worker.js": "/react_scratchpad/service-worker.js",
+    "static/css/main.52fa8eef.chunk.css.map": "/react_scratchpad/static/css/main.52fa8eef.chunk.css.map",
+    "static/js/2.6bb1f19f.chunk.js.LICENSE.txt": "/react_scratchpad/static/js/2.6bb1f19f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react_scratchpad/static/media/cypress_background.de1e9254.jpg",
+    "static/media/gitHub-white.png": "/react_scratchpad/static/media/gitHub-white.1ae0c166.png",
+    "static/media/headshot3.jpg": "/react_scratchpad/static/media/headshot3.2bb7d4dd.jpg",
+    "static/media/linkedIn-white.png": "/react_scratchpad/static/media/linkedIn-white.8c2a56c9.png",
+    "static/media/ravenous_thumb.jpg": "/react_scratchpad/static/media/ravenous_thumb.d9ae1cc7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2d760270.js",
-    "static/js/2.699b3395.chunk.js",
-    "static/css/main.40b00a86.chunk.css",
-    "static/js/main.58d3461c.chunk.js"
+    "static/js/runtime-main.706129fb.js",
+    "static/js/2.6bb1f19f.chunk.js",
+    "static/css/main.52fa8eef.chunk.css",
+    "static/js/main.669489d8.chunk.js"
   ]
 }
