@@ -19,7 +19,7 @@ class App extends React.Component {
     return (
     <body>
       
-      <Router basename ='/site' >
+      <Router  >
         <div className="all-contents">
           <nav className = "left-sidebar">
               <Menu />
