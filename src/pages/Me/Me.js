@@ -10,7 +10,7 @@ class Me extends React.Component {
         <h2>About Me</h2>
 
         <p> 
-          After deciding to pursue a career change into software development in early 2019, 
+          After deciding to pursue a career change into software development in mid 2019, 
           I have become enthralled with the breadth of powerful new languages and libraries 
           that have come about  just in the last ten years. 
           <br/><br/>
