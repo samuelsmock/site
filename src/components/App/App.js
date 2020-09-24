@@ -2,10 +2,11 @@ import React from 'react';
 
 import {
   BrowserRouter as Router,
-  browserHistory
+  
  
 } from "react-router-dom";
 
+import {browserHistory} from 'react-router';
 import './App.css';
 import Menu from '../MenuBar/Menu';
 import Head from '../Head/Head';
