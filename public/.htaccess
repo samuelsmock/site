@@ -1,0 +1,8 @@
+# Map all non-existing URLs to be processed by index.html,
+# so any URL that doesn't point to a JS file, CSS file, etc etc...
+# goes through my React app.
+
+Options -MultiViews
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.html [QSA,L]
