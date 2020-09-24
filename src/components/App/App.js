@@ -6,7 +6,7 @@ import {
  
 } from "react-router-dom";
 
-import {browserHistory} from 'react-router';
+
 import './App.css';
 import Menu from '../MenuBar/Menu';
 import Head from '../Head/Head';
@@ -19,7 +19,7 @@ class App extends React.Component {
     return (
     <body>
       
-      <Router basename ='/site' history = {browserHistory}>
+      <Router basename ='/site' >
         <div className="all-contents">
           <nav className = "left-sidebar">
               <Menu />
