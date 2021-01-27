@@ -14,10 +14,10 @@ class Head extends React.Component {
             <div className ="profile">
                 
                 
-                <img id = 'headshot' src = {headshot} alt = 'profile pic'/>
+                
               
                 <div className ="info">
-                    <h1 className = "large-print">Samuel Smock</h1>
+                    <h1 className = "large-print">Samuel &nbsp; Smock</h1>
                     <p>Front-end web developer in New Orleans, LA</p>
                     <p className='contact'>
                         Contact: smock.samuel@gmail.com
@@ -30,9 +30,12 @@ class Head extends React.Component {
                         <a href= "https://github.com/samuelsmock" target ="_blank" alt ='' className ='social-icon' rel="noopener noreferrer">
                             <img src={gitHub}  alt =''/>
                         </a>    
-                    </div>
-                   
+                    </div>  
+                </div>
+                <div className= "center-the-damn-thing">
+                    <img id = 'headshot' src = {headshot} alt = 'profile pic'/>
                 </div>    
+                
             </div>
         );
     };

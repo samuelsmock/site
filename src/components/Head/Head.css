@@ -1,8 +1,10 @@
 .profile{
+    display: flex;
     
+    align-items: auto;
     height: auto;
     width: auto;
-    vertical-align: top;
+    vertical-align: stretch;
     padding: 10px 10px 10px 0.6rem;
     margin: 0px;
 
@@ -11,23 +13,25 @@
 }
 
 
-
+.center-the-damn-thing{
+  flex-grow: 1;
+}
 #headshot{
-   
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     width: auto;
-    height: 10em;
-    margin-left: 5px;
-    margin-right: 5px;
+    height: 10rem;
     border-radius: 10px 30px;
+  
     
 }
 
 .info{
-    float: left;
-    display: inline-block;
-    margin-left: 0.5em;
-    margin-top: 0px !important;
-    width: 50%;
+  
+    margin-left: 0.5rem;
+ 
+    
     
     
     

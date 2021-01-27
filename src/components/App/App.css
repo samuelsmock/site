@@ -13,7 +13,7 @@
 
 
 .left-sidebar{
-  width:17%;
+  width:9.5rem;
   height: 100%;
   position: fixed;
   top: 0;
@@ -27,8 +27,8 @@
 .right-column{
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin-left: 17%;
+  width: calc(100%-9.5rem);
+  margin-left: 9.5rem;
   height: 100%;
   overflow-y: hidden;
 }
@@ -39,7 +39,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100%;
+  width: 83%;
   position: fixed;
   top:0;
   z-index: 10;
@@ -49,9 +49,9 @@
 .page{
   
   
- 
+  
   height: 100%;
-  padding-top: calc(20% + 65px);
+  padding-top: 11.5rem;
   z-index: 1;
   padding-bottom: 40px;
   overflow-y: auto;
@@ -106,7 +106,38 @@ html {
     background-size: cover;
 }
 
+.dropDown{
+  display: none;
+}
+
 @media only screen and (max-width: 560px) {
+  .menuBar{
+    display: none;
+  }
+  .dropDown{
+    position: fixed;
+    top: 3vh;
+    z-index: 100;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:10vh;
+    margin-bottom: 2vh;
+    padding-bottom: 2vh;
+  }
+  .left-sidebar{
+    display:none;
+  }
+
+  .right-column{
+    width: 100vw;
+    margin-left: 0;
+  }
+
+  .top{
+    width: 100%;
+  }
+
   html {
     
     background: url('./cypress_background.jpg') no-repeat center center fixed; 
@@ -141,14 +172,18 @@ input:focus {
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@500&display=swap');
 
-.menuBar, h1, h2, .large-print{
+h1, h2, .large-print{
   font-family: 'Abril Fatface', cursive;
   margin: 0px;
+  font-size: 1.6rem;
+}
+h1, h2{
+  letter-spacing: 0.1rem;
 }
 
 h3{
   font-family: 'Abril Fatface', cursive;
-  
+  letter-spacing:0.1vw;
   margin-bottom: 0px;
   
   padding-bottom:5px;
@@ -157,6 +192,7 @@ h3{
 p, .contact, .not-bold
 .title {
   font-family: 'Raleway', sans-serif;
+  
   
 } 
 
