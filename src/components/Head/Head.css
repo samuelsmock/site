@@ -1,5 +1,5 @@
 .profile{
-    display: flex;
+    
     height: auto;
     width: auto;
     vertical-align: top;
@@ -13,7 +13,7 @@
 
 
 #headshot{
-    
+   
     width: auto;
     height: 10em;
     margin-left: 5px;
@@ -23,7 +23,7 @@
 }
 
 .info{
-    float: right;
+    float: left;
     display: inline-block;
     margin-left: 0.5em;
     margin-top: 0px !important;

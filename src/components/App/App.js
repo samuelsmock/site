@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   
  
 } from "react-router-dom";
@@ -19,7 +19,7 @@ class App extends React.Component {
     return (
     <body>
       
-      <Router  >
+      <Router basename ='' >
         <div className="all-contents">
           <nav className = "left-sidebar">
               <Menu />
