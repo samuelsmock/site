@@ -1,11 +1,11 @@
 import React from 'react';
 import FlipMove from 'react-flip-move';
 import { Link, withRouter } from 'react-router-dom';
-import './Menu.css';
+import './MobileMenu.css';
 
 
 
-class Menu extends React.Component{
+class MobileMenu extends React.Component{
     constructor(props){
         super(props);
         this.state = {
@@ -58,10 +58,10 @@ class Menu extends React.Component{
     render(){
         return (
          
-        <div className = "menuBar">
-            <div className = "menuOptions">
-            <ul >
-                <FlipMove duration = "1000ms">   
+        <div className = "mobileBar" >
+         
+            <ul className = "mobileOptions">
+               
                 {this.state.items.map(item => (
                     <li
                         key={item.path}
@@ -75,9 +75,9 @@ class Menu extends React.Component{
                         <Link to={item.path}>{item.text}</Link>
                     </li>
                 ))}
-                </FlipMove>
+                
             </ul>
-            </div>
+            
         </div>
         
         );
@@ -85,4 +85,4 @@ class Menu extends React.Component{
 }
 
 
-export default withRouter(Menu);
+export default withRouter(MobileMenu);

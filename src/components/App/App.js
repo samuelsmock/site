@@ -11,7 +11,7 @@ import './App.css';
 import Menu from '../MenuBar/Menu';
 import Head from '../Head/Head';
 import Layout from "../Layout/Layout";
-import DropDown from '../DropDown/DropDown';
+import MobileMenu from '../DropDown/MobileMenu';
 
 
 class App extends React.Component {
@@ -21,18 +21,16 @@ class App extends React.Component {
       
       <Router basename ='' >
         <div className="all-contents">
-          <div className = "dropDown"><DropDown/></div>
+          
           <nav className = "left-sidebar">
               <Menu />
               
           </nav>
           <div className = "right-column">
-            <div className = "top">
-              <Head/>
-            </div>
-            <div className = "page">
-              <Layout/>
-            </div>  
+          
+            <div className = "top"><Head/></div>
+            <div className = "mobileMenu"><MobileMenu/></div>
+            <div className = "page"><Layout/></div>  
           </div>  
           <footer> </footer>                                                                                          
             

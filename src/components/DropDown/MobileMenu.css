@@ -1,0 +1,51 @@
+
+  .mobileBar{
+    width: 100vw;
+    
+  }
+  .mobileOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0;
+    
+   
+    list-style-type: none;
+    
+  }
+  
+  .mobileOptions a{
+    cursor: pointer;
+    
+    font-family: 'Abril Fatface', cursive;
+    
+    line-height: 1;
+    text-align: left;
+    
+    transition: color 1s;
+    display: flex;
+    text-decoration: none;
+    
+  }
+  .menu_item a {
+    color: black;
+    font-size: 1.2rem;
+    margin:  1.2rem .9rem .4rem .8rem;
+    
+  }
+  
+  .menu_item_active a{
+
+    letter-spacing: 0.1rem;
+    
+    font-weight: 200;
+    
+    border-bottom:  solid #f0c36c;
+    font-size: 1.6rem;
+    color: #f0c36c;
+    margin:  .8rem .8rem .8rem .9rem;
+  }
+
+  
+
+ 
