@@ -28,7 +28,7 @@
   .menuOptions a{
     cursor: pointer;
     
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Titillium Web', sans-serif;
     
     line-height: 1;
     text-align: left;
@@ -61,4 +61,5 @@
 
   .menuOptions a:hover {
     color: #d4cfcf;
+    font-size: 1.6rem;
   }

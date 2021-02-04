@@ -6,8 +6,8 @@ class Projects extends React.Component {
   render() {
     return (
       <div>
-        <h2>Projects</h2>
         
+       
           <a href= "https://softenbodywork.com/" target ="_blank" alt =''  rel="noopener noreferrer">
             <img src={soften}  alt ='' className = "thumb"/>
           </a>

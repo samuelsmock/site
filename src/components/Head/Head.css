@@ -1,7 +1,7 @@
 .profile{
     display: flex;
     
-    align-items: center;
+    
     height: auto;
     width: auto;
     vertical-align: stretch;
@@ -41,15 +41,25 @@
 
 
 .social-icon{
-    margin: 0 1.5rem 1rem 0;
+    margin: 0 1.5rem 1rem 0.1rem;
     background-color: transparent;
     
 }
 
 .social-links img{
+    transition: height 0.75s, width 0.75s ;
+    position: static;
+    margin-right: 1.4rem;
     width: 1.4rem;
     height: 1.4rem;
+}
 
+.social-links img:hover{
+    width: 1.6rem;
+    height: 1.6rem;
+    /*filters computed with https://codepen.io/sosuke/pen/Pjoqqp*/
+    filter: invert(100%) invert(83%) sepia(91%) saturate(933%) hue-rotate(310deg) brightness(106%) contrast(88%);        
+    -webkit-filter: invert(100%) invert(83%) sepia(91%) saturate(933%) hue-rotate(310deg) brightness(106%) contrast(88%);
 }
 
 h1 {

@@ -7,7 +7,7 @@ class Education extends React.Component {
   render() {
     return (
     <div>
-      <h2>Education</h2>
+      
       <h3>For Credit/Degree Programs</h3>
       <p>
           <strong>B.S. Applied Physics,</strong> Columbia University <i>Cum Laude</i>  2009 to 2012
