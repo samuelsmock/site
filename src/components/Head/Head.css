@@ -5,8 +5,8 @@
     height: auto;
     width: auto;
     vertical-align: stretch;
-    padding: 10px 10px 10px 0.6rem;
-    margin: 0px;
+    padding: 0.3rem;
+    margin: 0;
 
    
     top: 0;
@@ -15,14 +15,15 @@
 
 .center-the-damn-thing{
   flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 #headshot{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 0;
     width: auto;
-    height: 10rem;
-    border-radius: 10px 30px;
+    height: 8.5rem;
+    border-radius: 0.5rem 1rem;
   
     
 }
@@ -40,14 +41,14 @@
 
 
 .social-icon{
-    margin: 0px .5rem 1rem 0px;
+    margin: 0 1.5rem 1rem 0;
     background-color: transparent;
     
 }
 
 .social-links img{
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.4rem;
+    height: 1.4rem;
 
 }
 

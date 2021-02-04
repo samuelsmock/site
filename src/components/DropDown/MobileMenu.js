@@ -59,25 +59,25 @@ class MobileMenu extends React.Component{
         return (
          
         <div className = "mobileBar" >
-         
-            <ul className = "mobileOptions">
-               
+              
+           
+            <FlipMove duration ="1200ms" easing = "ease-in-out" className = "mobileOptions" typeName ="ul">
                 {this.state.items.map(item => (
                     <li
                         key={item.path}
                         onClick={this.handleClick}
                         className={
                             this.props.location.pathname === item.path
-                                ? 'menu_item_active'
-                                : 'menu_item'
+                                ? 'mobile_item_active'
+                                : 'mobile_item_unactive'
                         }
                     >
                         <Link to={item.path}>{item.text}</Link>
                     </li>
                 ))}
-                
-            </ul>
-            
+            </FlipMove>  
+           
+             
         </div>
         
         );

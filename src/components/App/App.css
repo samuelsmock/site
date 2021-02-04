@@ -13,7 +13,7 @@
 
 
 .left-sidebar{
-  width:9.5rem;
+  width:8.8rem;
   height: 100%;
   position: fixed;
   top: 0;
@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   width: calc(100%-9.5rem);
-  margin-left: 9.5rem;
+  margin-left: 8.8rem;
   height: 100%;
   overflow-y: hidden;
 }
@@ -51,7 +51,7 @@
   
   
   height: 100%;
-  padding-top: 11.5rem;
+  padding-top: 8.8rem;
   z-index: 1;
   padding-bottom: 40px;
   overflow-y: auto;
@@ -115,7 +115,10 @@ html {
     display: none;
   }
   .mobileMenu{
-    display:flex;
+    position: static;
+    z-index: 10;
+    display: inline-block;
+    height: auto;
     background-color: rgb(73, 121, 136, 0.8);
    
   }
@@ -133,12 +136,13 @@ html {
   }
 
   .page{
+    
     padding-top: 0.6rem;
-    height: 100%;
+    /*height: 100%;*/
     position: static;
     z-index: 1;
     padding-bottom: 240px;
-    overflow-y: auto;
+    /*overflow-y: auto;*/
     background: rgba(255, 255, 255, 0.95);
     background-size: cover;
   }
@@ -173,6 +177,13 @@ input:focus {
   background: #000;
 }
 
+.thumb{
+  width: 25rem;
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
 .image-container img {
   width: 100%;
 }
@@ -204,7 +215,9 @@ p, .contact, .not-bold
   
   
 } 
-
+p{
+  margin: 0.75rem 0 0.75rem 0;
+}
 .app-content {
   margin: 10px;
   color: black;

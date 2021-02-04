@@ -8,6 +8,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding:0;
+    position: relative;
     
    
     list-style-type: none;
@@ -22,19 +23,23 @@
     line-height: 1;
     text-align: left;
     
-    transition: color 1s;
+    -webkit-transition: all 1.2s;
+    -moz-transition: all 1.2s;
+     -o-transition: all 1.2s;
+        transition: all 1.2s; 
+   
     display: flex;
     text-decoration: none;
     
   }
-  .menu_item a {
+  .mobile_item_unactive a {
     color: black;
     font-size: 1.2rem;
     margin:  1.2rem .9rem .4rem .8rem;
     
   }
   
-  .menu_item_active a{
+  .mobile_item_active a{
 
     letter-spacing: 0.1rem;
     

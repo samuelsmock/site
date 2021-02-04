@@ -59,9 +59,8 @@ class Menu extends React.Component{
         return (
          
         <div className = "menuBar">
-            <div className = "menuOptions">
-            <ul >
-                <FlipMove duration = "1000ms">   
+           
+                <FlipMove duration = "1200ms" type = "ul" className = "menuOptions">   
                 {this.state.items.map(item => (
                     <li
                         key={item.path}
@@ -76,8 +75,7 @@ class Menu extends React.Component{
                     </li>
                 ))}
                 </FlipMove>
-            </ul>
-            </div>
+           
         </div>
         
         );
