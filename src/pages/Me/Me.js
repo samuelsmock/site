@@ -5,7 +5,7 @@ class Me extends React.Component {
   render() {
     return (
     <div >
-        <h3>About</h3>
+        <h3 className = "mobile-hide">About</h3>
         <p > 
           After deciding to pursue a career change into software development in early 2019, 
           I have become enthralled with the breadth of powerful new languages and libraries 

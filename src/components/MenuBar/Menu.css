@@ -45,7 +45,7 @@
     color: black;
     font-size: 1.2rem;
     margin: 2.5vh 5px 6vh 2px;
-    
+    height: 1rem;
   }
   
   .menu_item_active a{
@@ -53,7 +53,7 @@
     letter-spacing: 0.1rem;
     padding: 0 0 5px 0;
     font-weight: 200;
-    
+    height: 1.5rem;
     border-bottom:  solid #f0c36c;
     font-size: 1.6rem;
     color: #f0c36c;

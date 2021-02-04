@@ -38,13 +38,20 @@
     
 }
 
-
+.social-links{
+    height: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .social-icon{
-    margin: 0 1.5rem 1rem 0.1rem;
+    width: 4rem;
     background-color: transparent;
+    position: auto;
     
 }
+
 
 .social-links img{
     transition: height 0.75s, width 0.75s ;

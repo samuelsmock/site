@@ -7,7 +7,7 @@ class Work extends React.Component {
   render() {
     return (
     <div className = "work">
-        <h3>Work</h3>
+        <h3 className = "mobile-hide">Work</h3>
         <p>I am a maker through-and-through, and love to build things from the ground up. Since leaving my role as master brewer, IT person, and overall everything guy 
           at a start-up neighborhood brewery in mid-2019, I have built a house in my backyard, and taught myself JavaScript and React.
         </p>

@@ -17,7 +17,7 @@ class Layout extends React.Component {
     render (){
         return(
           
-           <div className = "app-content">
+           <div className = "page-content">
                 <Switch>
                     <Route exact path="/">
                         <Redirect to="/me" />
