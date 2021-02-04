@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.40b00a86.chunk.css",
-    "main.js": "/site/static/js/main.da9bdae1.chunk.js",
-    "main.js.map": "/site/static/js/main.da9bdae1.chunk.js.map",
-    "runtime-main.js": "/site/static/js/runtime-main.2d760270.js",
-    "runtime-main.js.map": "/site/static/js/runtime-main.2d760270.js.map",
-    "static/js/2.6bb1f19f.chunk.js": "/site/static/js/2.6bb1f19f.chunk.js",
-    "static/js/2.6bb1f19f.chunk.js.map": "/site/static/js/2.6bb1f19f.chunk.js.map",
-    "index.html": "/site/index.html",
-    "precache-manifest.748d6d83838a912ea91b671bb2cff81c.js": "/site/precache-manifest.748d6d83838a912ea91b671bb2cff81c.js",
-    "service-worker.js": "/site/service-worker.js",
-    "static/css/main.40b00a86.chunk.css.map": "/site/static/css/main.40b00a86.chunk.css.map",
-    "static/js/2.6bb1f19f.chunk.js.LICENSE.txt": "/site/static/js/2.6bb1f19f.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/site/static/media/cypress_background.de1e9254.jpg",
-    "static/media/gitHub-white.png": "/site/static/media/gitHub-white.1ae0c166.png",
-    "static/media/headshot3.jpg": "/site/static/media/headshot3.2bb7d4dd.jpg",
-    "static/media/linkedIn-white.png": "/site/static/media/linkedIn-white.8c2a56c9.png",
-    "static/media/ravenous_thumb.jpg": "/site/static/media/ravenous_thumb.d9ae1cc7.jpg"
+    "main.css": "./static/css/main.c83fd951.chunk.css",
+    "main.js": "./static/js/main.c3811152.chunk.js",
+    "main.js.map": "./static/js/main.c3811152.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.2035019a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.2035019a.js.map",
+    "static/js/2.3c3860bb.chunk.js": "./static/js/2.3c3860bb.chunk.js",
+    "static/js/2.3c3860bb.chunk.js.map": "./static/js/2.3c3860bb.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.21d69b2c0b1b465be5ca11adfe88b681.js": "./precache-manifest.21d69b2c0b1b465be5ca11adfe88b681.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.c83fd951.chunk.css.map": "./static/css/main.c83fd951.chunk.css.map",
+    "static/js/2.3c3860bb.chunk.js.LICENSE.txt": "./static/js/2.3c3860bb.chunk.js.LICENSE.txt",
+    "static/media/App.css": "./static/media/cypress_background.f29c5b7a.jpg",
+    "static/media/gitHub-white.png": "./static/media/gitHub-white.1ae0c166.png",
+    "static/media/headshot.small.jpg": "./static/media/headshot.small.47b4d355.jpg",
+    "static/media/linkedIn-white.png": "./static/media/linkedIn-white.8c2a56c9.png",
+    "static/media/ravenous_thumb.jpg": "./static/media/ravenous_thumb.4a2f7cf0.jpg",
+    "static/media/soften-screenshot.jpg": "./static/media/soften-screenshot.f899cadb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2d760270.js",
-    "static/js/2.6bb1f19f.chunk.js",
-    "static/css/main.40b00a86.chunk.css",
-    "static/js/main.da9bdae1.chunk.js"
+    "static/js/runtime-main.2035019a.js",
+    "static/js/2.3c3860bb.chunk.js",
+    "static/css/main.c83fd951.chunk.css",
+    "static/js/main.c3811152.chunk.js"
   ]
 }
