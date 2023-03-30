@@ -7,14 +7,25 @@ class Work extends React.Component {
   render() {
     return (
     <div className = "work">
-        
+        <br/>
         <p>I am a maker through-and-through, and love to build things from the ground up. Since leaving my role as master brewer, IT person, and overall everything guy 
-          at a start-up neighborhood brewery in mid-2019, I have built a house in my backyard, and taught myself JavaScript and React.
+          at a start-up neighborhood brewery in mid-2019, I have built focussed on improving my skills in geospatial data science, energy analysis and modelling as well as immersed myself in green building practices.
           <br/>
           <br/>
           I am currently looking for employment opportunities either in geospatial data analysis or energy system analysis. CV is available <a href = {CV}  target ="_blank" alt =''  rel="noopener noreferrer">here</a>
         </p>
 
+        <hr/>
+
+        <p>
+          <h3 className = 'title'>Owner Operator</h3>
+          
+          <strong padding-bottom = "5px"> Rebuild Greener!  </strong> New Orleans, LA - 2017 to 2021
+          <br/>In this multi-faceted role, I designed and built small houses incorporating passive heating/cooling, heat pumps, spray foam insulation and other green building practices. I also coordinated with city officials on planning and permitting, and coordinated small construction teams on build sites. 
+          I also coordinated with customers on a variety of smaller light construction projects.
+          <br/><br/>
+        <strong>Key Skills:</strong> 3D Design, Carpentry,  Zoning and Code Compliance, Tax Incentive Optimization
+        </p>
         <hr/>
 
         <p>
@@ -24,7 +35,7 @@ class Work extends React.Component {
           <br/>As the first employee, I was responsible for everything from wiring and plumbing new equipment to setting up the website. As the team grew, my role included overseeing production schedules, 
           supervising other production staff, and designing labels in compliance with federal and state regulations.
           <br/><br/>
-        <strong>Key Skills:</strong> Adobe PhotoShop, Wix Web Themes, HTML, Carpentry, Industrial Wiring, Plumbing, and of course Brewing
+        <strong>Key Skills:</strong> Process Design, Production Scheduling, Adobe PhotoShop, Wix Web Themes, HTML, Carpentry, Industrial Wiring, Plumbing, and of course Brewing
         </p>
         <hr/>
 
