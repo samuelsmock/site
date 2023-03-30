@@ -10,10 +10,19 @@ class Education extends React.Component {
       
       <h3>For Credit/Degree Programs</h3>
       <p>
+          <strong>M.Sc. Joint International Masters in Sustainable Development,</strong> Univerität Leipzig and Ca'Foscari University Venice   Expected 2023
+          <ul className = "not-bold">
+            <li>Environmental and Climate Economics | Integrated Assessment of Climate Protection Strategies</li>
+            <li>Sustainability Assesment of the "Energiewende" | Renewable Energy Sources</li>
+          </ul> 
+        </p>
+        
+        <p>
           <strong>B.S. Applied Physics,</strong> Columbia University <i>Cum Laude</i>  2009 to 2012
           <ul className = "not-bold">
-            <li>Python, C, ArcGIS</li>
-            <li>Linear Algebra, Partial Differential Equations, Statistics</li>
+            <li>Physics of Solar Energy | GIS for Infrastructure and Environmental Management</li>
+            <li>Field Methods for Environmental Engineers | Introduction to Atmospheric Science</li>
+            <li>Linear Algebra | Partial Differential Equations | Statistics</li>
           </ul> 
         </p>
       <h3>Independent/Online Study</h3>

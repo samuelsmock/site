@@ -3,8 +3,8 @@ import headshot from './headshot.small.jpg';
 import './Head.css';
 import linkedIn from './linkedIn-white.png';
 import gitHub from "./gitHub-white.png";
-
-
+import cvThumb from "./cvThumb.png"
+import cv from "./cv.pdf"
 
 
 
@@ -18,7 +18,7 @@ class Head extends React.Component {
               
                 <div className ="info">
                     <h1 className = "large-print">Samuel &nbsp; Smock</h1>
-                    <p>Front-end web developer in New Orleans, LA</p>
+                    <p>Geospatial Data Analyst and Renewable Energy Professional. Student of Sustainability </p>
                     <p className='contact'>
                         Contact: smock.samuel@gmail.com
                     </p>
@@ -29,6 +29,9 @@ class Head extends React.Component {
                           
                         <a href= "https://github.com/samuelsmock" target ="_blank" alt ='' className ='social-icon' rel="noopener noreferrer">
                             <img src={gitHub}  alt =''/>
+                        </a>    
+                        <a href= {cv} target ="_blank" alt ='' className ='social-icon' rel="noopener noreferrer">
+                            <img src={cvThumb}  alt =''/>
                         </a>    
                     </div>  
                 </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import CV from "./cv.pdf"
 
 
 
@@ -7,15 +7,18 @@ class Work extends React.Component {
   render() {
     return (
     <div className = "work">
-        <h3 className = "mobile-hide">Work</h3>
+        
         <p>I am a maker through-and-through, and love to build things from the ground up. Since leaving my role as master brewer, IT person, and overall everything guy 
           at a start-up neighborhood brewery in mid-2019, I have built a house in my backyard, and taught myself JavaScript and React.
+          <br/>
+          <br/>
+          I am currently looking for employment opportunities either in geospatial data analysis or energy system analysis. CV is available <a href = {CV}  target ="_blank" alt =''  rel="noopener noreferrer">here</a>
         </p>
 
         <hr/>
 
         <p>
-          <h3 className = 'title'>Master Brewer, Founding Employee </h3>
+          <h3 className = 'title'>Operations Manager, Founding Employee </h3>
           
           <strong padding-bottom = "5px">Parleaux Beer Lab, </strong> New Orleans, LA - 2016 to 2019
           <br/>As the first employee, I was responsible for everything from wiring and plumbing new equipment to setting up the website. As the team grew, my role included overseeing production schedules, 

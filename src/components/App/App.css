@@ -150,6 +150,10 @@ html {
   }
 
   h2{
+    font-family: 'Titillium Web', sans-serif;
+    margin: .2rem;
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
     display: none;
   }
 
@@ -217,9 +221,9 @@ input:focus {
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Titillium+Web:wght@600&display=swap');
 
-h1, h2, .large-print{
+h1, .large-print{
   font-family: 'Titillium Web', sans-serif;
-  margin: 0px;
+  margin: .2rem;
   font-size: 1.6rem;
 }
 h1, h2{
