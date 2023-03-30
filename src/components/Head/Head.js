@@ -18,7 +18,8 @@ class Head extends React.Component {
               
                 <div className ="info">
                     <h1 className = "large-print">Samuel &nbsp; Smock</h1>
-                    <p>Geospatial Data Analyst and Renewable Energy Professional. Student of Sustainability </p>
+                    <p className = "description">Geospatial Data Analyst | Renewable Energy Professional | Student of Sustainability </p>
+                    
                     <p className='contact'>
                         Contact: smock.samuel@gmail.com
                     </p>
@@ -34,6 +35,7 @@ class Head extends React.Component {
                             <img src={cvThumb}  alt =''/>
                         </a>    
                     </div>  
+                    <div className = "smallItalic">This website is part of ongoing practice and experimentation with responsive web design in React, JavaScript, and GitHub</div>
                 </div>
                 <div className= "center-the-damn-thing">
                     <img id = 'headshot' src = {headshot} alt = 'profile pic'/>

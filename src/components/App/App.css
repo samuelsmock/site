@@ -40,7 +40,7 @@
   -o-background-size: cover;
   background-size: cover;
   width: 83%;
-  height: 9.5rem;
+  height: 10.8rem;
   position: fixed;
   top:0;
   z-index: 10;
@@ -52,7 +52,7 @@
   
   
   height: 100%;
-  padding-top: 8.8rem;
+  padding-top: 10.3rem;
   z-index: 1;
   
   overflow-y: auto;
@@ -201,9 +201,13 @@ input:focus {
   margin-bottom: 0;
   transition: height 0.75s, width 0.75s, filter 0.75s, border 0.75s;
  
-  
 }
 
+.smallItalic{
+  font-size:0.6rem;
+  font-style: italic;
+  padding-top: 0.4rem;
+}
 .thumb:hover{
   width:auto;
   height:10.5rem;
@@ -216,6 +220,9 @@ input:focus {
 .image-container img {
   width: 100%;
 }
+.description{
+  font-size: 1.8vw;
+}
 
 /* App Styles */
 
@@ -224,7 +231,7 @@ input:focus {
 h1, .large-print{
   font-family: 'Titillium Web', sans-serif;
   margin: .2rem;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 h1, h2{
   letter-spacing: 0.1rem;
@@ -256,4 +263,3 @@ p{
   color: black;
  
 }
-
