@@ -5,15 +5,28 @@ import bioenergyThumb from "./bioenergyThumb.jpg"
 import bioenergy from "./EUROPEAN_FOREST_BIOENERGY_EXCERPT.pdf"
 import renenThumb from"./renenThumb.png"
 import renen from  "./smock.CM0446.final.pdf"
+import thesis from "../Education/smockThesis.pdf"
+import flow from "./flowChart.jpg"
 
 class Projects extends React.Component {
   render() {
     return (
       <div className= "column">
-        <h2 className = "mobile-hide">Course Work in Sustainable Development</h2>
+        <h2>Projects in Sustainable Development</h2>
         <div><hr/></div> 
+
+        <a href= {thesis}  target ="_blank" alt =''  rel="noopener noreferrer">
+          <h3 className = "mobile-hide">Master's Thesis on Geospatial Techno-Economic Modelling of Heat Pump Retrofits</h3>
+        </a>
+        <a href= {thesis}  target ="_blank" alt =''  rel="noopener noreferrer" className = "thumb-container">
+            <img src={flow}  alt ='' className = "thumb"/>
+        </a>
+            <p>
+            The master's research involved building a novel model, written in Python for determining the net present value (NPV) of air-to-water heat pump retrofits on a per building level using building morphology, regional climate, and energy price trajectories as the principal variables.</p> 
+            <div><hr/></div> 
+
         <a href= {renen}  target ="_blank" alt =''  rel="noopener noreferrer">
-          <h3 className = "mobile-hide">Building-Level Energy Balancing in an Off-Grid Heat Pump </h3>
+          <h3 className = "mobile-hide">Design Proposal for an Off-grid Multisource Heat Pump </h3>
         </a>
         <a href= {renen}  target ="_blank" alt =''  rel="noopener noreferrer" className = "thumb-container">
             <img src={renenThumb}  alt ='' className = "thumb"/>
@@ -21,6 +34,8 @@ class Projects extends React.Component {
             <p>
             Proposal for a climate control system incorporating geothermal, solar thermal and solar PV inputs in an off-grid context. Project focusses on monthly energy balance and heating/cooling load calculations and includes 3D models of the building rendered in SketchUp</p> 
             <div><hr/></div> 
+
+
         <a href= {bioenergy}  target ="_blank" alt =''  rel="noopener noreferrer">
           <h3 className = "mobile-hide">European Forests and Bioenergy Production</h3>
         </a>
