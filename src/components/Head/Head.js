@@ -18,13 +18,13 @@ class Head extends React.Component {
               
                 <div className ="info">
                     <h1 className = "large-print">Samuel &nbsp; Smock</h1>
-                    <p className = "description"> Geospatial Analysis & Modeling | Energy System Design & Impact | Sustainability  </p>
+                    <p className = "description"> Geospatial Analysis | Energy System Design & Modeling | Sustainability Assessment </p>
                     
                     <p className='contact'>
                         Contact: smock.samuel@gmail.com
                     </p>
                     <div className = 'social-links'>
-                        <a href= "https://www.linkedin.com/in/samuel-chuck-smock-502a5a76" target ="_blank" alt ='' className ='social-icon' rel="noopener noreferrer">
+                        <a href= "https://www.linkedin.com/in/samuel-smock-502a5a76/?originalSubdomain=de" target ="_blank" alt ='' className ='social-icon' rel="noopener noreferrer">
                                 <img src={linkedIn} alt ='' />
                         </a>
                           
