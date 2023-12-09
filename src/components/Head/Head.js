@@ -18,7 +18,7 @@ class Head extends React.Component {
               
                 <div className ="info">
                     <h1 className = "large-print">Samuel &nbsp; Smock</h1>
-                    <p className = "description"> Geospatial Analysis | Energy System Design & Modelling | Sustainability Assessment </p>
+                    <p className = "description"> Geospatial Analysis | Energy System Design & Modeling | Sustainability Assessment </p>
                     
                     <p className='contact'>
                         Contact: smock.samuel@gmail.com
